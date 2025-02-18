@@ -37,6 +37,10 @@ cd ..
 rm -rf "$EXTRACT_DIR"
 fc-cache -fv
 
+echo "Set wallpapers"
+mkdir -p "$HOME/wallpapers/archlinux"
+cp wallpapers/simple.png "$HOME/wallpapers/archlinux"
+
 echo "Setting dotfiles"
 cd "$HOME"
 git clone "https://github.com/radu-dumitru/dotfiles.git"
