@@ -31,7 +31,7 @@ TARGET_FONT_DIR="$HOME/.local/share/fonts"
 mkdir -p "$EXTRACT_DIR"
 unzip "$FONT_ZIP_PATH" -d "$EXTRACT_DIR"
 mkdir -p "$TARGET_FONT_DIR"
-cd "$EXTRAT_DIR"
+cd "$EXTRACT_DIR"
 mv *.ttf "$TARGET_FONT_DIR"
 cd ..
 rm -rf "$EXTRACT_DIR"
