@@ -24,6 +24,7 @@ sudo pacman -S --noconfirm \
 	xorg-xinit \
 	stow \
 	pavucontrol \
+	brightnessctl \
 
 echo "Installing fonts"
 FONT_ZIP_PATH="fonts/Hack.zip"
