@@ -23,6 +23,7 @@ sudo pacman -S --noconfirm \
 	xorg-server \
 	xorg-xinit \
 	stow \
+	pavucontrol \
 
 echo "Installing fonts"
 FONT_ZIP_PATH="fonts/Hack.zip"
