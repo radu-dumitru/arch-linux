@@ -27,6 +27,7 @@ sudo pacman -S --noconfirm \
 	brightnessctl \
 	bluez \
 	bluez-utils \
+	man-db \
 
 echo "Installing fonts"
 FONT_ZIP_PATH="fonts/Hack.zip"
