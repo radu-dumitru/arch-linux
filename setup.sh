@@ -25,6 +25,8 @@ sudo pacman -S --noconfirm \
 	stow \
 	pavucontrol \
 	brightnessctl \
+	bluez \
+	bluez-utils \
 
 echo "Installing fonts"
 FONT_ZIP_PATH="fonts/Hack.zip"
