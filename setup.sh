@@ -50,5 +50,9 @@ echo "Setting dotfiles"
 cd "$HOME"
 git clone "https://github.com/radu-dumitru/dotfiles.git"
 cd dotfiles
-stow --adopt .
+stow --adopt bash
+stow --adopt xorg
+stow --adopt i3
+stow --adopt polybar
+stow --adopt rofi
 git reset --hard
